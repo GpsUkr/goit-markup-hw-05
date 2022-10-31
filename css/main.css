@@ -6,9 +6,6 @@
   --second-text-color: #757575;
   --style-color: #ffffff;
   --accent-color: #2196f3;
-  --accent-second-color: #188ce8;
-  --back-color: #f5f4fa;
-  --back-second-color: #afb1b8;
 }
 
 h1,
@@ -78,7 +75,7 @@ a {
 
 .link :hover,
 .link :focus {
-  color: var(--accent-second-color);
+  color: #188ce8;
 }
 
 li.pointer {
@@ -147,7 +144,7 @@ li.pointer {
 }
 
 .header-nav-link :hover {
-  color: var(--accent-second-color);
+  color: #188ce8;
 }
 
 .first-part {
@@ -280,7 +277,7 @@ li.pointer {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
-  background: var(--back-color);
+  background: #f5f4fa;
   border-radius: 4px;
   padding: 6px 25px;
   border: none;
@@ -296,7 +293,7 @@ li.pointer {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
-  background: var(--back-color);
+  background: #f5f4fa;
   border-radius: 4px;
   padding: 6px 22px;
   border: none;
@@ -403,7 +400,7 @@ li.pointer {
   margin-bottom: 30px;
   align-items: center;
   justify-content: center;
-  background-color: var(--back-color);
+  background-color: #F5F4FA;
 }
 
 .icon-list {
@@ -412,7 +409,7 @@ li.pointer {
   justify-content: center;
   height: 70px;
   width: 70px;
-  fill: var(--back-second-color);
+  fill: #afb1b8;
   
 }
 
@@ -427,12 +424,12 @@ li.pointer {
 
 .icon-link:hover 
 .icon-team {
-  fill: var(--style-color);
+  fill: #fff;
 }
 
 .icon-link:focus 
 .icon-team {
-  fill: var(--style-color);
+  fill: #fff;
 }
 
 .icon-container {
@@ -469,7 +466,7 @@ li.pointer {
   justify-content: center;
   height: 20px;
   width: 20px;
-  fill: var(--back-second-color);
+  fill: #afb1b8;
 }
 
 .main-gallary-list {
@@ -519,7 +516,7 @@ li.pointer {
 /*team*/
 
 .our-team {
-  background-color: var(--back-color);
+  background-color: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -617,11 +614,11 @@ li.pointer {
   display: flex;
   width: 170px;
   height: 92px;
-  border-color: var(--back-second-color);
+  border-color: #AFB1B8;
   border-width: 1px;
   border-style: Solid;
   border-radius: 4px;
-  fill: var(--back-second-color);
+  fill: #AFB1B8;
   align-items: center;
   justify-content: center;
 }
@@ -718,7 +715,7 @@ li.pointer {
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 20px;
-  color: var(--style-color);
+  color: #fff;
 }
 
 .footer-icon-list {
@@ -731,7 +728,7 @@ li.pointer {
 }
 
 .icon-item {
-  fill: var(--style-color);
+  fill: #fff;
   
 }
 
